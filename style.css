@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+
+body {
+    background-color:#0077c8;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    color: white;
+}
+
+.Heading {
+    margin: 2rem ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    background-color: #353740; border-radius: 15px;
+}
+
+.Heading img {
+    width: 50px; /* Adjust the image width as needed */
+    height: auto;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+
+.intro {
+    margin: 1rem;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    
+    
+   
+   
+}
+
+
+#Speech {
+    position: absolute;
+    padding: 20px 100px;
+    top: 250px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#ig{
+
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    width: 500px;
+    height: 70%;
+}
+
+.Feature {
+    top: 250px;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 6px;
+    text-align: center;
+    bottom: 250px;
+
+}
+.Feature {
+    width: 100%;
+    padding: 20px;
+}
+
+.Feature td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Feature img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
